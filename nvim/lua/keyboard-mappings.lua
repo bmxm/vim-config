@@ -6,11 +6,15 @@ mapx.nnoremap("<C-j>", "<C-w>j")
 mapx.nnoremap("<C-k>", "<C-w>k")
 mapx.nnoremap("<C-l>", "<C-w>l")
 
--- Utils
-mapx.nnoremap("<C-o>", ":NvimTreeToggle<Cr>")                               -- Toggle file explorer.
+-- NvimTree
+mapx.nnoremap("<C-o>", ":NvimTreeToggle<Cr>")     -- Toggle file explorer.
+
+-- Telescope
 mapx.nnoremap("<C-p>", ":Telescope find_files<Cr>")                         -- Search for files.
-mapx.nnoremap("<C-s>", ":SymbolsOutline<Cr>")                               -- Show symbols outline.
 mapx.nnoremap("<C-f>", ":Telescope live_grep<Cr>")                          -- Search in files.
+
+-- Utils          
+mapx.nnoremap("<C-s>", ":SymbolsOutline<Cr>")                               -- Show symbols outline.
 mapx.nnoremap("<C-D>", ":TroubleToggle<Cr>")                                -- Show workspace issues.
 mapx.inoremap("<C-t>", "<cmd>:DlvTestCurrent<Cr>", "silent", { ft = "go" }) -- Run go tests in insert mode.
 mapx.nnoremap("<C-t>", "<cmd>:DlvTestCurrent<Cr>", "silent", { ft = "go" }) -- Run go tests in normal mode.

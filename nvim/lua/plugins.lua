@@ -136,9 +136,9 @@ return {
 	-- File management.
 	{
 		"kyazdani42/nvim-tree.lua",
-		dependencies = {
-			"kyazdani42/nvim-web-devicons",
-		},
+--		dependencies = {
+--			"kyazdani42/nvim-web-devicons",
+--		},
 		config = function()
 			require "plugin-configs.nvim-tree"
 		end,
@@ -197,6 +197,11 @@ return {
 			require "plugin-configs.galaxyline"
 		end,
 	},
+
+	-- Telescope 是一个高度可定制的模糊查找器，可以用来搜索任何东西，包括文件内容。
+	-- 最简单的形式，你可以使用 :Telescope live_grep 命令在你的项目中搜索文本。
+	-- 此工具依赖于 rg, 你可以使用 brew install ripgrep 安装它。
+	-- 使用 rg --version 来检查是否安装成功。
 	{
 		"nvim-telescope/telescope.nvim",
 		dependencies = {
