@@ -26,7 +26,6 @@ return {
 	-- 在 LSP 完成菜单中显示类型图标
 	"onsails/lspkind.nvim",
 
-	-- 我看下面有些东西依赖这个插件，就加在这了
 	-- dependencies 中定义的插件不需要单独安装，packer.nvim 会处理这些依赖关系
 	-- "kyazdani42/nvim-web-devicons",
 

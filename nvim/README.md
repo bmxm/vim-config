@@ -34,6 +34,8 @@ A familiar editor that enables:
 
 There aren't many, I like to keep it simple but these are basically burned in muscle memory for me after years of developing with different editors.
 
+Ctrl + w 是用来在窗口间切换的通用命令，配合 h，j，k，l。另外，在 .lua/keyboard-mappings.lua 对这些按键进行了重新映射。
+
 `<leader>` is `,`
 
 ```

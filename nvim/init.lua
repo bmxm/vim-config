@@ -21,3 +21,5 @@ vim.opt.rtp:prepend(lazypath)
 
 -- 加载 lazy 模块
 require("lazy").setup(plugins, {})
+
+require'lspconfig'.gopls.setup{}
